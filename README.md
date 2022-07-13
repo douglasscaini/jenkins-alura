@@ -12,22 +12,19 @@
 
 ## :speech_balloon: Sobre <a name="about"></a>
 
-> Esse repositório é um projeto somente para aprender algumas configurações do Jenkins visando integração contínua.
+> Esse repositório é um projeto somente para aprender algumas configurações do Jenkins visando integração contínua de código.
 
 ## :warning: Configurações <a name="config"></a>
 
 ```bash
-# Instalar o  maven e o java são necessários:
+# Configurações iniciais, instalar o maven e o java:
 $ sudo apt-get install maven
 $ sudo apt-get install openjdk-11-jdk
 
 # Iniciar o projeto em ambiente de desenvolvimento:
 $ java -jar jenkins.war
 
-# Sobre a primeira configuração:
-$ Pegar a key gerada para acesso ao jenkins.
-
-# A aplicação irá iniciar por padrão em:
+# A aplicação jenkins irá iniciar em:
 $ http://localhost:8080/
 
 # Para saber mais sobre cron:
